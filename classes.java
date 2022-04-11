@@ -11,14 +11,5 @@ public class classes {
         Carro Carro1 = new Carro();
         Venda Venda1 = new Venda();
         
-        Vendedor1.nome = "Cleber";
-        Cliente1.nome = "Robert";
-        Carro1.modelo = "Gol";
-        Venda1.setComprador(Cliente1);
-        Venda1.setProduto(Carro1);
-        Venda1.setVendedor(Vendedor1);
-        Venda1.getComprador();
-        Venda1.getProduto();
-        Venda1.getVendedor();
     }
 }
